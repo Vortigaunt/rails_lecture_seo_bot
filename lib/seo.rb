@@ -61,11 +61,8 @@ end
 b = Test.new
 b.compare
 
-counter = 0
-line = 0
-err = 0
-
-/begin
+=begin
+begin
 
 	while (line = b.file1.gets)
 		puts "#{counter}: #{line}"
@@ -94,7 +91,8 @@ rescue => err
   puts "Exception: #{err}"
   err
   
-end/
+end
+=end
 
 
 	
